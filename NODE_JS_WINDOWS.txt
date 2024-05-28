@@ -1,0 +1,12 @@
+1. got to node js website https://nodejs.org/en
+2. download and install the program and follow the installer steps.
+3. open cmd command prompt and check node is already installed write node -v this will show the version installed in your machine.
+4. in cmd command prompt write node init -y.
+The node init -y command is used to initialize a new Node.js project with default settings, skipping the interactive questionnaire. Here's what each part of the command does:
+Node refers to the Node.js runtime environment.
+Init is a shorthand for "initialize" and is a built-in command provided by Node.js to create a new project.
+-y is a flag that stands for "yes" and it automatically answers "yes" to all prompts during the initialization process, skipping the need for manual input.
+5. FOR SPECIFIC PROJECTS!!! in my case I tried to do a program to use the google vision API, hence, I used the following command to install
+the google cloud vision component to be executed by node.js
+npm install @google-cloud/vision
+6. That's it , now you can run your code using node command, for example:  node your_code.js
